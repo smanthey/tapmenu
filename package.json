@@ -12,7 +12,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "check": "npm run -s build"
+    "check": "npm run -s build",
+    "claw:baseline:gate": "node scripts/claw-baseline-gate.js",
+    "claw:security:gate": "node scripts/claw-security-gate.js"
   },
   "browserslist": {
     "production": [
